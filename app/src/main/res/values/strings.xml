@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">to do</string>
+    <string name="bio_str"> be more formal like Mro be fair</string>
+    <string-array name="spin">
+        <item>Array Item One</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+</resources>

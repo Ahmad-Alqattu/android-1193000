@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0071BC"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/textStyle"
+        android:text="add yore to do"
+        android:textColor="#FF9800"
+        tools:text="add yore to do" />
+
+
+    <EditText
+        android:id="@+id/T_todo"
+        style="@style/textStyle"
+        android:ems="10"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="to do"
+
+        android:inputType="text"
+         />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Switch"
+        android:padding="12dp"
+        android:textColor="#FF9800" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="22dp"
+        android:entries="@array/spin"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:id="@+id/add"
+        android:layout_gravity="center"
+        android:padding="7dp"
+        />
+
+    <TextView
+        android:id="@+id/textBio"
+        style="@style/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
